@@ -24,6 +24,6 @@ class Kubetunnel < Formula
   end
 
   def install
-    bin.install "src/my-script.sh" => "my-script"
+    bin.install "kubetunnel-*.tar.gz" => "kubetunnel" 
   end
 end
