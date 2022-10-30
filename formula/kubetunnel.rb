@@ -24,6 +24,6 @@ class Kubetunnel < Formula
   end
 
   def install
-    bin.install "kubetunnel-*.tar.gz" => "kubetunnel" 
+    bin.install "*kubetunnel-*.tar.gz" => "kubetunnel" 
   end
 end
