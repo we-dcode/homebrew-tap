@@ -12,14 +12,12 @@ class Kubetunnel < Formula
   on_macos do
     on_intel do
       url "https://github.com/we-dcode/kubetunnel/releases/download/kubetunnel-cli-0.0.15.16/kubetunnel--darwin-amd64.tar.gz"
-      sha256 "7a0285ce3c26e2d12b67f12423a4028039e6373d8f2c19e7dd177c67ce413dcc"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/we-dcode/kubetunnel/releases/download/kubetunnel-cli-0.0.15.16/kubetunnel--linux-amd64.tar.gz"
-      sha256 "ff1f48dfe0697358a53d1b2e65d6537b7d5db1a5c2ff53a340096b20f89743b1"
     end
   end
 
