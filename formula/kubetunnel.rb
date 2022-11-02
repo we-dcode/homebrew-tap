@@ -6,7 +6,7 @@ class Kubetunnel < Formula
   desc "Develop microservices locally while being connected to your kubernetes environme"
   homepage "https://github.com/we-dcode/kubetunnel"
   url "https://github.com/we-dcode/kubetunnel/archive/test-release-4.tar.gz"
-  sha256 "c640fdff43ed3037d710346770e8253cc7e2f9f639ef4f7ac7a850f05f822deb"
+  sha256 "76569b8530eeeef2c0291b231df5aa2bd9842fed9726dcae10325f4efe330aa0"
   license "Apache-2.0"
 
   on_macos do
