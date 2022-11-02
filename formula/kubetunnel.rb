@@ -27,4 +27,16 @@ class Kubetunnel < Formula
   def install
     bin.install "kubetunnel"
   end
+    
+  def post_install
+    ohai "*************************************************"
+    ohai "*                                               *"
+    ohai "* The KubeTunnel CLI installation has finished. *"
+    ohai "*                                               *"
+    ohai "* To see available commands run the following:  *"
+    ohai "*     kubetunnel --help                         *"
+    ohai "*                                               *"
+    ohai "*************************************************"
+  end
+
 end
