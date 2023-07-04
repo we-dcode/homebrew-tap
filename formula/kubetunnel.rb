@@ -11,16 +11,16 @@ class Kubetunnel < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/we-dcode/kubetunnel/releases/download/kubetunnel-cli-0.1.0/kubetunnel--darwin-amd64.tar.gz"
+      url "https://github.com/we-dcode/kubetunnel/releases/download/kubetunnel-cli-0.3.0/kubetunnel--darwin-amd64.tar.gz"
     end
     on_arm do
-      url "https://github.com/we-dcode/kubetunnel/releases/download/kubetunnel-cli-0.1.0/kubetunnel--darwin-arm64.tar.gz"
+      url "https://github.com/we-dcode/kubetunnel/releases/download/kubetunnel-cli-0.3.0/kubetunnel--darwin-arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/we-dcode/kubetunnel/releases/download/kubetunnel-cli-0.1.0/kubetunnel--linux-amd64.tar.gz"
+      url "https://github.com/we-dcode/kubetunnel/releases/download/kubetunnel-cli-0.3.0/kubetunnel--linux-amd64.tar.gz"
     end
   end
 
